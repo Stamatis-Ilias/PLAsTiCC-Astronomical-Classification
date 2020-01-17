@@ -5,7 +5,7 @@
 
 The data that was used in this project came from the LSST dataset, an astronomical dataset made by  values based on the survey data of the telescope, that when analyzed will help classify the astronomical data that the telescope will collect in the future.
 
-The Data consists of a train set and a test set, containing 7848 and 3490000 stars respectively, making the train to test size ratio rather small. This was the biggest challenge that we faced in this competition, and it was an understandable hurdle regarding the nature of the data. Precision was the goal of this competition and we believe we did a rather good job in that area.
+The Data consists of a train set and a test set, containing 7848 and 3490000 objects respectively, making the train to test size ratio rather small. This was the biggest challenge that we faced in this competition, and it was an understandable hurdle regarding the nature of the data. Precision was the goal of this competition and we believe we did a rather good job in that area.
 
 ##  Equipment Used
 
