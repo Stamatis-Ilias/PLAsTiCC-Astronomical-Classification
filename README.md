@@ -13,7 +13,7 @@ Due to the huge size of the test set **20GB** we used a google console cloud lin
 
 ## Data Analysis and Study
 
-The data was divided into two sets. One for the **timeseries data** of each star, that contained the *Julian Dates, the flux and the corresponding passband* of each observation, while also having the *flux error* of the observation and a *detected* value that was equal to 1 if the object's brightness is significantly different at the 3-sigma level relative to the reference template.
+The data was divided into two sets. One for the **timeseries data** of each object, that contained the *Julian Dates, the flux and the corresponding passband* of each observation, while also having the *flux error* of the observation and a *detected* value that was equal to 1 if the object's brightness is significantly different at the 3-sigma level relative to the reference template.
 
 
 
@@ -240,7 +240,7 @@ df_meta.head()
 
 ## Target Distribution
 
-The goal of the challenge is to classify each star to a target, based on features we will extract from the above data. Even though a simple classification problem sounds easy, the fact that the data ratio is skewed is not the only problem that prevents the problem from being simple. Looking at the graph below ***Taken from Study.ipynb***, we can see that the distribution of the targets are not equal.
+The goal of the challenge is to classify each object to a target, based on features we will extract from the above data. Even though a simple classification problem sounds easy, the fact that the data ratio is skewed is not the only problem that prevents the problem from being simple. Looking at the graph below ***Taken from Study.ipynb***, we can see that the distribution of the targets are not equal.
 
 <img src="img/targets.png">
 
